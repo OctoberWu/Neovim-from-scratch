@@ -8,6 +8,7 @@
   "cmp-nvim-lua": { "branch": "main", "commit": "d276254e7198ab7d00f117e88e223b4bd8c02d21" },
   "cmp-path": { "branch": "main", "commit": "447c87cdd6e6d6a1d2488b1d43108bfa217f56e1" },
   "cmp_luasnip": { "branch": "master", "commit": "a9de941bcbda508d0a45d28ae366bb3f08db2e36" },
+  "dressing.nvim": { "branch": "master", "commit": "6741f1062d3dc6e4755367a7e9b347b553623f04" },
   "friendly-snippets": { "branch": "main", "commit": "00ebcaa159e817150bd83bfe2d51fa3b3377d5c4" },
   "git-blame.nvim": { "branch": "master", "commit": "408d5487d908dfe5d48e5645d8b27ddcc16b11e0" },
   "gitsigns.nvim": { "branch": "main", "commit": "f4928ba14eb6c667786ac7d69927f6aee6719f1e" },

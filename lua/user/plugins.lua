@@ -105,5 +105,8 @@ require("lazy").setup({
   -- Debugging
   { "mfussenegger/nvim-dap" },
   { "rcarriga/nvim-dap-ui" },
- 
+
+   -- Dressing
+  {"stevearc/dressing.nvim", opts = {}}
+
 })
