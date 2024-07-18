@@ -85,6 +85,8 @@ keymap("x", "<A-k>", ":m '<-2<CR>gv=gv", opts)
 
 -- Hop --
 keymap("n", "<A-h>", ":HopWord<CR>", opts)
+keymap("n", "<A-f>", ":HopWordAC<CR>", opts)
+keymap("n", "<A-b>", ":HopWordBC<CR>", opts)
 
 -- REST / Postman
 keymap("n", "<leader>xr", ":call VrcQuery()<CR>")
