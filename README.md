@@ -7,6 +7,7 @@ there if you're getting errors in other branches.
 
 **Update** For a simple IDE that builds on these principles and is under active development, I recommend my newer repo: [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide) as well as [lunarvim](https://www.lunarvim.org/) which is mature and fully-featured.
 
+General support is available on our [Matrix channels](https://matrix.to/#/#neovim-atmachine:matrix.org).
 
 ## Try out this config
 
