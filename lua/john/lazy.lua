@@ -60,12 +60,12 @@ require("lazy").setup({
 
   { "rafamadriz/friendly-snippets" }, -- a bunch of snippets to use
 
-	-- LSP
-	{ "neovim/nvim-lspconfig" } ,            -- enable LSP
-  { "williamboman/mason.nvim"},            -- simple to use language server installer
-  { "williamboman/mason-lspconfig.nvim" },
-	{ "jose-elias-alvarez/null-ls.nvim" },   -- for formatters and linters
-  { "RRethy/vim-illuminate" },
+  -- -- LSP
+  -- { "neovim/nvim-lspconfig" } ,            -- enable LSP
+  -- { "williamboman/mason.nvim"},            -- simple to use language server installer
+  -- { "williamboman/mason-lspconfig.nvim" },
+  -- { "jose-elias-alvarez/null-ls.nvim" },   -- for formatters and linters
+  -- { "RRethy/vim-illuminate" },
 
 	-- Telescope
   {
@@ -104,8 +104,11 @@ require("lazy").setup({
   { "mfussenegger/nvim-dap" },
   { "rcarriga/nvim-dap-ui" },
 
-   -- Dressing
+  -- Dressing
   {"stevearc/dressing.nvim", opts = {}},
+
+  -- LSP
+  { import = "john.plugins.lsp" } 
 },
 {
   checker = {

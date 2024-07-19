@@ -1,4 +1,4 @@
-require "john.plugins.lsp" 
+-- require "john.plugins.lsp" 
 
 require "john.plugins.colorscheme"
 require "john.plugins.cmp"
