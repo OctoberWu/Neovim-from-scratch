@@ -18,25 +18,15 @@ require("lazy").setup({
   { "numToStr/Comment.nvim" },
   { "JoosepAlviste/nvim-ts-context-commentstring" },
   { "kyazdani42/nvim-tree.lua" },
-  { "akinsho/bufferline.nvim", 
-    version = "*",
-    dependencies = 'nvim-tree/nvim-web-devicons'
-  },
 	{ "moll/vim-bbye" },
   { "nvim-lualine/lualine.nvim" },
   { "akinsho/toggleterm.nvim" },
   { "ahmedkhalf/project.nvim" },
   { "lewis6991/impatient.nvim" },
   { "lukas-reineke/indent-blankline.nvim" },
-  -- { "goolord/alpha-nvim", 
-  --   event = 'VeryLazy',
-  -- },
 	{ "folke/which-key.nvim",
     event = 'VeryLazy',
   },
-
-	-- Colorschemes
-  { "tanvirtin/monokai.nvim" },
 
 	-- Cmp 
   { "hrsh7th/nvim-cmp", 
@@ -105,7 +95,7 @@ require("lazy").setup({
   { "rcarriga/nvim-dap-ui" },
 
   -- Dressing
-  {"stevearc/dressing.nvim", opts = {}},
+  -- {"stevearc/dressing.nvim", opts = {}},
 
   -- Plugins 
   { import = "john.plugins2" },
