@@ -1,6 +1,6 @@
-require "user.core"
+require "john.core"
 
-require "user.lazy"
-require "user.plugins"
+require "john.lazy"
+require "john.plugins"
 
 
