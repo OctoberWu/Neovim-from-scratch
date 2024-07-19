@@ -107,7 +107,6 @@ require("lazy").setup({
    -- Dressing
   {"stevearc/dressing.nvim", opts = {}},
 },
-{ { import = "user.plugins.lsp" } },
 {
   checker = {
     enabled = true,
