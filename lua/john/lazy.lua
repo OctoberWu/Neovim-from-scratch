@@ -28,9 +28,9 @@ require("lazy").setup({
   { "ahmedkhalf/project.nvim" },
   { "lewis6991/impatient.nvim" },
   { "lukas-reineke/indent-blankline.nvim" },
-  { "goolord/alpha-nvim", 
-    event = 'VeryLazy',
-  },
+  -- { "goolord/alpha-nvim", 
+  --   event = 'VeryLazy',
+  -- },
 	{ "folke/which-key.nvim",
     event = 'VeryLazy',
   },
@@ -107,8 +107,11 @@ require("lazy").setup({
   -- Dressing
   {"stevearc/dressing.nvim", opts = {}},
 
+  -- Plugins 
+  { import = "john.plugins2" },
+
   -- LSP
-  { import = "john.plugins.lsp" } 
+  { import = "john.plugins2.lsp" } 
 },
 {
   checker = {
