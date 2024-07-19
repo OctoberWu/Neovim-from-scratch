@@ -1,8 +1,6 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
+require "user.core"
 
-require "user.lsp"
-require "user.plugins_config"
+require "user.lazy"
+require "user.plugins"
 
 
