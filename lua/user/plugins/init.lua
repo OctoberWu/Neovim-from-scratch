@@ -1,4 +1,3 @@
-require "user.plugins.lsp"
 require "user.plugins.colorscheme"
 require "user.plugins.cmp"
 require "user.plugins.telescope"

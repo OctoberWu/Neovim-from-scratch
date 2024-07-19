@@ -105,6 +105,16 @@ require("lazy").setup({
   { "rcarriga/nvim-dap-ui" },
 
    -- Dressing
-  {"stevearc/dressing.nvim", opts = {}}
-
-})
+  {"stevearc/dressing.nvim", opts = {}},
+},
+{ { import = "user.plugins.lsp" } },
+{
+  checker = {
+    enabled = true,
+    notify = false,
+  },
+  change_detection = {
+    notify = false,
+  },
+}
+)
