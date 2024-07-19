@@ -12,8 +12,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 
-vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
-
 require("lazy").setup({
   { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
   { "windwp/nvim-autopairs" },  -- Autopairs, integrates with both cmp and treesitter
