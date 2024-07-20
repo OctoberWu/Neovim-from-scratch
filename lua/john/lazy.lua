@@ -14,9 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
-  -- { "windwp/nvim-autopairs" },  -- Autopairs, integrates with both cmp and treesitter
   { "numToStr/Comment.nvim" },
-  { "JoosepAlviste/nvim-ts-context-commentstring" },
   { "kyazdani42/nvim-tree.lua" },
 	{ "moll/vim-bbye" },
   { "akinsho/toggleterm.nvim" },
@@ -55,15 +53,6 @@ require("lazy").setup({
     version = '0.1.4',
     dependencies = { "nvim-lua/plenary.nvim" }
   }, 
-
-	-- Treesitter
-  { 'nvim-treesitter/nvim-treesitter', 
-    build = ':TSUpdate' 
-  },
-
-	-- Git
- 	-- { "lewis6991/gitsigns.nvim" },
-  { "f-person/git-blame.nvim" },
 
   -- REST / Postman
   { "diepm/vim-rest-console" },

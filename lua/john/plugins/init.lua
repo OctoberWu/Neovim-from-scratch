@@ -1,7 +1,5 @@
 require "john.plugins.cmp"
 require "john.plugins.telescope"
-require "john.plugins.git-blame"
-require "john.plugins.treesitter"
 require "john.plugins.nvim-tree"
 require "john.plugins.toggleterm"
 require "john.plugins.project"
