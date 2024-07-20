@@ -22,7 +22,6 @@
   "mason.nvim": { "branch": "main", "commit": "c2002d7a6b5a72ba02388548cfaf420b864fbc12" },
   "monokai.nvim": { "branch": "master", "commit": "b8bd44d5796503173627d7a1fc51f77ec3a08a63" },
   "neodev.nvim": { "branch": "main", "commit": "46aa467dca16cf3dfe27098042402066d2ae242d" },
-  "null-ls.nvim": { "branch": "main", "commit": "c0c19f32b614b3921e17886c541c13a72748d450" },
   "nvim-autopairs": { "branch": "master", "commit": "78a4507bb9ffc9b00f11ae0ac48243d00cb9194d" },
   "nvim-cmp": { "branch": "main", "commit": "b0dff0ec4f2748626aae13f011d1a47071fe9abc" },
   "nvim-dap": { "branch": "master", "commit": "e154fdb6d70b3765d71f296e718b29d8b7026a63" },
@@ -39,7 +38,6 @@
   "telescope.nvim": { "branch": "master", "commit": "7011eaae0ac1afe036e30c95cf80200b8dc3f21a" },
   "toggleterm.nvim": { "branch": "main", "commit": "8ed0f52006d3207ec6c94de7db62da840937ef2a" },
   "vim-bbye": { "branch": "master", "commit": "25ef93ac5a87526111f43e5110675032dbcacf56" },
-  "vim-illuminate": { "branch": "master", "commit": "5eeb7951fc630682c322e88a9bbdae5c224ff0aa" },
   "vim-rest-console": { "branch": "master", "commit": "7b407f47185468d1b57a8bd71cdd66c9a99359b2" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }

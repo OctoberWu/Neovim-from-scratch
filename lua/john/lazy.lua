@@ -14,12 +14,11 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
-  { "windwp/nvim-autopairs" },  -- Autopairs, integrates with both cmp and treesitter
+  -- { "windwp/nvim-autopairs" },  -- Autopairs, integrates with both cmp and treesitter
   { "numToStr/Comment.nvim" },
   { "JoosepAlviste/nvim-ts-context-commentstring" },
   { "kyazdani42/nvim-tree.lua" },
 	{ "moll/vim-bbye" },
-  { "nvim-lualine/lualine.nvim" },
   { "akinsho/toggleterm.nvim" },
   { "ahmedkhalf/project.nvim" },
   { "lewis6991/impatient.nvim" },
@@ -70,7 +69,7 @@ require("lazy").setup({
   },
 
 	-- Git
- 	{ "lewis6991/gitsigns.nvim" },
+ 	-- { "lewis6991/gitsigns.nvim" },
   { "f-person/git-blame.nvim" },
 
   -- REST / Postman
