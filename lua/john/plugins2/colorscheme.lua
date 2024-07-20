@@ -2,6 +2,10 @@ return {
   "tanvirtin/monokai.nvim",
   priority = 1000,
   config = function()
+
+    local monokai = require('monokai')
+    local palette = monokai.pro
+
     local transparent = false -- set to true if you would like to enable transparency
 
     local bg = "#011628"
@@ -14,7 +18,7 @@ return {
     local fg_gutter = "#627E97"
     local border = "#547998"
 
-    require("monokai").setup({
+    monokai.setup({
       style = "night",
       transparent = transparent,
       styles = {
@@ -38,6 +42,28 @@ return {
         colors.fg_gutter = fg_gutter
         colors.fg_sidebar = fg_dark
       end,
+
+      palette = {
+          diff_text = '#133337',
+      },
+      custom_hlgroups = {
+          TSInclude = {
+              fg = palette.aqua,
+          },
+          GitSignsAdd = {
+              fg = palette.green,
+              bg = palette.base2
+          },
+          GitSignsDelete = {
+              fg = palette.pink,
+              bg = palette.base2
+          },
+          GitSignsChange = {
+              fg = palette.orange,
+              bg = palette.base2
+          },
+      }
+
     })
 
     vim.cmd("colorscheme monokai")

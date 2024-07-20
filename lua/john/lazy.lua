@@ -49,13 +49,6 @@ require("lazy").setup({
 
   { "rafamadriz/friendly-snippets" }, -- a bunch of snippets to use
 
-  -- -- LSP
-  -- { "neovim/nvim-lspconfig" } ,            -- enable LSP
-  -- { "williamboman/mason.nvim"},            -- simple to use language server installer
-  -- { "williamboman/mason-lspconfig.nvim" },
-  -- { "jose-elias-alvarez/null-ls.nvim" },   -- for formatters and linters
-  -- { "RRethy/vim-illuminate" },
-
 	-- Telescope
   {
     'nvim-telescope/telescope.nvim', 
@@ -75,26 +68,10 @@ require("lazy").setup({
   -- REST / Postman
   { "diepm/vim-rest-console" },
 
-  -- Hop
-  {
-    'phaazon/hop.nvim',
-    lazy = false,
-    version = 'v2', -- optional but strongly recommended
-    config = function()
-      require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
-    end
-  }, 
-
-  -- Rust
-  { "neovim/nvim-lspconfig" },
-  { "simrat39/rust-tools.nvim" },
-
   -- Debugging
   { "mfussenegger/nvim-dap" },
   { "rcarriga/nvim-dap-ui" },
 
-  -- Dressing
-  -- {"stevearc/dressing.nvim", opts = {}},
 
   -- Plugins 
   { import = "john.plugins2" },
