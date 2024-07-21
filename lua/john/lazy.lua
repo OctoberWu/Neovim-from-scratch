@@ -18,11 +18,6 @@ require("lazy").setup({
     event = 'VeryLazy',
   },
 
-  -- Debugging
-  { "mfussenegger/nvim-dap" },
-  { "rcarriga/nvim-dap-ui" },
-
-
   -- Plugins 
   { import = "john.plugins2" },
 

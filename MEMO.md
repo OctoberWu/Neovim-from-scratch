@@ -1,5 +1,8 @@
 > ! DO NOT upgrade `indent-blankline` to version 3, still has unresolved issues !
 
+### How do dap & dapui work?
+* neovim <-> dapui <-> dap <--- dap-<lang>(eg. dap-go) ---> dap <---> lang. debugger(eg. delve)
+
 ### How to test config script works
 1. remove the nvim cache
 $rm ~/.local/share/nvim/
