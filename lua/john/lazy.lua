@@ -19,25 +19,6 @@ require("lazy").setup({
     event = 'VeryLazy',
   },
 
-	-- Cmp 
-  { "hrsh7th/nvim-cmp", 
-    event = 'InsertEnter',
-  }, -- The completion plugin
-  { "hrsh7th/cmp-buffer" },       -- buffer completions
-  { "hrsh7th/cmp-path" },         -- path completions
-	{ "saadparwaiz1/cmp_luasnip" }, -- snippet completions
-	{ "hrsh7th/cmp-nvim-lsp" },
-	{ "hrsh7th/cmp-nvim-lua" },
-
-	-- Snippets
-  {
-    "L3MON4D3/LuaSnip",
-    -- follow latest release.
-    version = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
-    -- install jsregexp (optional!:).
-    build = "make install_jsregexp"
-  },
-
 	-- Telescope
   {
     'nvim-telescope/telescope.nvim', 
