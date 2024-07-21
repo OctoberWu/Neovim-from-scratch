@@ -13,7 +13,6 @@ vim.opt.rtp:prepend(lazypath)
 
 
 require("lazy").setup({
-  { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
 	{ "folke/which-key.nvim",
     event = 'VeryLazy',
   },
