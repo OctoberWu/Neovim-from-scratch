@@ -1,8 +1,5 @@
-require "user.options"
-require "user.keymaps"
-require "user.plugins"
+require "john.core"
 
-require "user.lsp"
-require "user.plugins_config"
-
+require "john.lazy"
+require "john.plugins"
 
