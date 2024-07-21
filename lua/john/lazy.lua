@@ -16,10 +16,9 @@ require("lazy").setup({
   { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
   { "numToStr/Comment.nvim" },
   { "kyazdani42/nvim-tree.lua" },
-	{ "moll/vim-bbye" },
+	-- { "moll/vim-bbye" },
   { "akinsho/toggleterm.nvim" },
   { "ahmedkhalf/project.nvim" },
-  { "lewis6991/impatient.nvim" },
   { "lukas-reineke/indent-blankline.nvim" },
 	{ "folke/which-key.nvim",
     event = 'VeryLazy',
@@ -45,7 +44,7 @@ require("lazy").setup({
   },
 
 
-  { "rafamadriz/friendly-snippets" }, -- a bunch of snippets to use
+  -- { "rafamadriz/friendly-snippets" }, -- a bunch of snippets to use
 
 	-- Telescope
   {
@@ -54,8 +53,6 @@ require("lazy").setup({
     dependencies = { "nvim-lua/plenary.nvim" }
   }, 
 
-  -- REST / Postman
-  { "diepm/vim-rest-console" },
 
   -- Debugging
   { "mfussenegger/nvim-dap" },
