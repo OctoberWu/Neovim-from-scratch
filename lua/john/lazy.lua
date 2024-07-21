@@ -14,11 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
-  { "numToStr/Comment.nvim" },
   { "kyazdani42/nvim-tree.lua" },
-	-- { "moll/vim-bbye" },
-  { "akinsho/toggleterm.nvim" },
-  { "ahmedkhalf/project.nvim" },
   { "lukas-reineke/indent-blankline.nvim" },
 	{ "folke/which-key.nvim",
     event = 'VeryLazy',
@@ -27,7 +23,7 @@ require("lazy").setup({
 	-- Cmp 
   { "hrsh7th/nvim-cmp", 
     event = 'InsertEnter',
-  },         -- The completion plugin
+  }, -- The completion plugin
   { "hrsh7th/cmp-buffer" },       -- buffer completions
   { "hrsh7th/cmp-path" },         -- path completions
 	{ "saadparwaiz1/cmp_luasnip" }, -- snippet completions
@@ -43,16 +39,12 @@ require("lazy").setup({
     build = "make install_jsregexp"
   },
 
-
-  -- { "rafamadriz/friendly-snippets" }, -- a bunch of snippets to use
-
 	-- Telescope
   {
     'nvim-telescope/telescope.nvim', 
     version = '0.1.4',
     dependencies = { "nvim-lua/plenary.nvim" }
   }, 
-
 
   -- Debugging
   { "mfussenegger/nvim-dap" },
