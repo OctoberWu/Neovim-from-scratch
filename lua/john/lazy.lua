@@ -15,7 +15,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   { "nvim-lua/plenary.nvim" },  -- Useful lua functions used by lots of plugins
   { "kyazdani42/nvim-tree.lua" },
-  { "lukas-reineke/indent-blankline.nvim" },
 	{ "folke/which-key.nvim",
     event = 'VeryLazy',
   },

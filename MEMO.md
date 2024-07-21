@@ -1,9 +1,10 @@
+> ! DO NOT upgrade `indent-blankline` to version 3, still has unresolved issues !
+
 ### How to test config script works
 1. remove the nvim cache
 $rm ~/.local/share/nvim/
 2. run nvim 
 $nvim ~/.config/nvim
-
 
 
 ### How to add-on a new plugin
