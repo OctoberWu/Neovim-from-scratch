@@ -19,13 +19,6 @@ require("lazy").setup({
     event = 'VeryLazy',
   },
 
-	-- Telescope
-  {
-    'nvim-telescope/telescope.nvim', 
-    version = '0.1.4',
-    dependencies = { "nvim-lua/plenary.nvim" }
-  }, 
-
   -- Debugging
   { "mfussenegger/nvim-dap" },
   { "rcarriga/nvim-dap-ui" },
