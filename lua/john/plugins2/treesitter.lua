@@ -31,8 +31,6 @@ return {
         "bash",
         "json",
         "javascript",
-        "typescript",
-        "tsx",
         "yaml",
         "html",
         "css",
@@ -41,7 +39,6 @@ return {
         "vim",
         "dockerfile",
         "gitignore",
-        "c",
       },
       incremental_selection = {
         enable = true,
